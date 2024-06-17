@@ -1,0 +1,187 @@
+@font-face {
+	font-family: "satoshi-med";
+	src: url('Satoshi-Medium.otf');
+	font-family: "satoshi-reg";
+	src: url('Satoshi-Regular.otf');
+}
+html {
+	overflow-x: hidden;
+	cursor: url(cursor.png), auto;
+}
+.main {
+	overflow-x: hidden;
+	font-family: rage italic;
+	background-color: #111111;
+	color: #FDFFFC;
+}
+
+.name, .surname {
+	
+	font-size: 200px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.name {
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.surname {
+	margin-top: -16%;
+	margin-left: 42%;
+}
+
+#image-track {
+	margin-top: 2000px;
+	border-radius: 20px;
+	display: flex;
+	gap: 4vmin;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	transform: translate(0%, -50%); 
+	user-select: none;
+}
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vh;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+.image {
+	overflow-x: hidden;
+	margin-top: -570px;
+	border-radius: 30px;
+	box-shadow: 0 4px 80px 0 rgba(255, 255, 255, 0.04), 0 6px 80px 0 rgba(255, 255, 255, 0.04);
+}
+
+.button {
+	cursor: url(cursor.png), auto;
+	font-family: satoshi;
+	color: white;
+	font-size: 27px;
+	padding: 10px 35px 10px 35px;
+	border-radius: 40px;
+	background-color: #CB0000;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	border-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button:hover {
+	background-color: #602323;
+}
+
+.intro {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 1200px;
+	height: 800px;
+	font-size: 80px;
+	text-align: center;
+	font-family: satoshi-reg;
+	color: white;
+	background-color: #602323;
+	border-radius: 80px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding:  0 100px 0 100px; 
+	justify-content: center;
+    position: absolute; /* So it stays in the viewport while scrolling */
+    top: 110%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.information {
+	justify-content: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	margin-left: 250px;
+	z-index: -1;
+	margin-top: 15%;
+}
+
+.underline {
+	cursor: url(cursor.png), auto;
+	text-decoration: underline;
+}
+
+.wavy {
+	cursor: url(cursor.png), auto;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+
+.wrapper {
+	font-family: satoshi-reg;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contact-info {
+	margin-top: 100px;
+	cursor: url(cursor.png), auto;
+	font-size: 60px;
+}
+
+.linkedin, .instagram, .behance {
+	
+	background-color: #CB0000;
+	padding: 10px 35px 10px 35px;
+	border-radius: 50px;
+	border-color: transparent;
+	color: white;
+	font-size: 27px;
+}
+
+.contact-info, .email, .linkedin, .instagram, .behance, .spiky, .resume {
+	cursor: url(cursor.png), auto;
+}
+
+.spiky {
+	font-size: 25px;
+	font-family: helvetica;
+}
+
+.linkedin:hover, .instagram:hover, .behance:hover {
+	background-color: #602323;
+}
+
+.resume {
+	padding: 10px 35px 10px 35px;
+	font-size: 25px;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 50px;
+	color: white;
+}
+
+.resume:hover {
+	background-color: #602323;
+	border-color: #602323;
+}
+
+.container {
+	display: flex;
+}
