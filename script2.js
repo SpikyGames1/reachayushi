@@ -45,3 +45,7 @@ function adjustContainerSize() {
         container.style.width = '70%';
     }
 }
+const img = document.querySelector("img");
+img.ondragstart = () => {
+  return false;
+};
