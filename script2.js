@@ -13,5 +13,5 @@ function isMobileDevice() {
   return isMobile || isSmallScreen;
 }
 if (isMobileDevice()) {
-  window.location.href = "mobileVer/index.html";
+  window.location.href = "/mobileVer/index.html";
 }
