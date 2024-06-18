@@ -7,10 +7,6 @@ function isMobile() {
   return regex.test(navigator.userAgent);
 }
 function isMobileDevice() {
-  return /Mobi|Android/i.test(navigator.userAgent);
-}
-
-function isMobileDevice() {
   const userAgent = navigator.userAgent;
   const isMobile = /Mobi|Android/i.test(userAgent);
   const isSmallScreen = window.innerWidth <= 768;
