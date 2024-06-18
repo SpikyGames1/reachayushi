@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/rage-italic');
+html {
+	overflow-x: hidden;
+	cursor: url(cursor.png), auto;
+}
+.main {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: rage italic;
+	background-color: #111111;
+	color: #FDFFFC;
+}
+
+.name, .surname {
+	font-family: 'Rage Italic', sans-serif;
+	font-size: 15vw;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.name {
+	margin-left: 30%;
+	margin-top: 10vw;
+	margin-bottom: 10vw;
+}
+
+.surname {
+	margin-top: -16%;
+	margin-left: 42%;
+}
+
+#image-track {
+	margin-top: 100vh;
+	border-radius: 20px;
+	display: flex;
+	gap: 4vmin;
+	position: absolute;
+	left: 50%;
+	top: 70vh;
+	transform: translate(0%, -50%); 
+	user-select: none;
+}
+
+#image-track > .image {
+  width: 40vw;
+  height: 30vh;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+.image {
+	margin-top: 40vh;
+	margin-bottom: 100vh;
+	overflow: hidden;
+	overflow-x: hidden;
+	border-radius: 30px;
+	box-shadow: 0 4px 80px 0 rgba(255, 255, 255, 0.04), 0 6px 80px 0 rgba(255, 255, 255, 0.04);
+}
+
+.button {
+	cursor: url(cursor.png), auto;
+	font-family: satoshi;
+	color: white;
+	font-size: 27px;
+	padding: 10px 35px 10px 35px;
+	border-radius: 40px;
+	background-color: #CB0000;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	border-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button:hover {
+	background-color: #602323;
+}
+
+.intro {
+	margin-bottom: 100vh;
+	max-height: 50vh;
+	box-sizing: content-box;
+	font-size: 20%vw;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100vw;
+	height: 100vh;
+	font-size: 80px;
+	text-align: center;
+	font-family: satoshi-reg;
+	color: white;
+	background-color: #602323;
+	border-radius: 80px;
+	justify-content: center;
+    position: absolute;
+    top: 70vh;
+	left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.information {
+	box-sizing: content-box;
+	overflow-x: hidden;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	z-index: -1;
+	margin-top: 60vh;
+}
+
+.underline {
+	cursor: url(cursor.png), auto;
+	text-decoration: underline;
+}
+
+.wavy {
+	cursor: url(cursor.png), auto;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+
+.wrapper {
+	margin-top: 10%vh;
+	font-family: satoshi;
+	text-align: center;
+}
+
+.contact-info {
+	margin-top: 100px;
+	cursor: url(cursor.png), auto;
+	font-size: 15vw;
+}
+
+.linkedin, .instagram, .behance {
+	font-family: satoshi;
+	background-color: #CB0000;
+	padding: 10px 35px 10px 35px;
+	border-radius: 50px;
+	border-color: transparent;
+	color: white;
+	font-size: 27px;
+}
+
+.contact-info, .email, .linkedin, .instagram, .behance, .spiky, .resume {
+	cursor: url(cursor.png), auto;
+}
+
+.spiky {
+	font-size: 25px;
+	font-family: helvetica;
+}
+
+.linkedin:hover, .instagram:hover, .behance:hover {
+	background-color: #602323;
+}
+
+.resume {
+	font-family: satoshi;
+	padding: 10px 35px 10px 35px;
+	font-size: 25px;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 50px;
+	color: white;
+}
+
+.resume:hover {
+	background-color: #602323;
+	border-color: #602323;
+}
+
+.container {
+	display: flex;
+}
+
+.email {
+	font-family: 'Rage Italic', sans-serif;
+	font-size: 11vw;
+}
